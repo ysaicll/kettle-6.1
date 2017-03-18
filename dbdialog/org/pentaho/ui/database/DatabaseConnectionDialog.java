@@ -34,7 +34,7 @@ public class DatabaseConnectionDialog {
 
   public static final String DIALOG_DEFINITION_FILE = "org/pentaho/ui/database/databasedialog.xul";
 
-  protected Map<String, String> extendedClasses = new HashMap<>();
+  protected Map<String, String> extendedClasses = new HashMap<String, String>();
 
   public DatabaseConnectionDialog() {
   }
